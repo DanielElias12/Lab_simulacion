@@ -2,7 +2,7 @@ import requests
 from firebase_admin import db
 from firebase_admin import credentials, firestore
 import firebase_admin
-import pyrebase
+
 firebase_sdk = credentials.Certificate('C:\\Users\\daeli\\Desktop\\lab-simulacion-firebase-adminsdk-rj5w1-75b9f2edce.json')
 firebase_admin.initialize_app(firebase_sdk, {'databaseURL':'https://lab-simulacion-default-rtdb.firebaseio.com/'})
 
